@@ -1,0 +1,21 @@
+# Basic
+titlle: ndxbn.tokyo
+description: static contents of ndxbn.tokyo site.
+url: https://static.ndxbn.tokyo
+twitter_username: ndxbn
+github_username: ndxbn
+
+# For Atom Feed
+domain: static.ndxbn.tokyo
+author: ndxbn
+email: sitri.ndxbn@gmail.com
+
+# Jekyll
+timezone: Asia/Tokyo
+future: false
+markdown: kramdown
+kramdown:
+  input: GFM
+
+## Template
+highlighter: rouge
