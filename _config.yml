@@ -1,12 +1,12 @@
 # Basic
 titlle: ndxbn.tokyo
-description: static contents of ndxbn.tokyo site.
-url: https://static.ndxbn.tokyo
+description: www contents of ndxbn.tokyo site.
+url: https://www.ndxbn.tokyo
 twitter_username: ndxbn
 github_username: ndxbn
 
 # For Atom Feed
-domain: static.ndxbn.tokyo
+domain: www.ndxbn.tokyo
 author: ndxbn
 email: sitri.ndxbn@gmail.com
 
