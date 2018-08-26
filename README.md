@@ -1,1 +1,1 @@
-# ndxbn-tokyo.github.io
+# static.ndxbn.tokyo
