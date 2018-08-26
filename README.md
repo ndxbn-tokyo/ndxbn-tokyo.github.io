@@ -1,1 +1,1 @@
-# static.ndxbn.tokyo
+# www.ndxbn.tokyo
