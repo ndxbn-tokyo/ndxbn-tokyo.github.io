@@ -1,21 +1,52 @@
-# Basic
-title: www.ndxbn.tokyo title
-description: www contents of ndxbn.tokyo site.
-url: https://www.ndxbn.tokyo
-twitter_username: ndxbn
-github_username: ndxbn
-
-# For Atom Feed
-domain: www.ndxbn.tokyo
-author: ndxbn
-email: sitri.ndxbn@gmail.com
-
 # Jekyll
 timezone: Asia/Tokyo
+encoding: UTF-8
+
 future: false
+show_drafts: false
+
+permalink: /blog/:year-:month-:day/:slug:output_ext
+
+exclude:
+  # general repository files
+  - README.md
+  - CODE_OF_CONDUCT.md
+  - CNAME
+  # Docker
+  - docker-compose.yml
+  - Dockerfile
+  # Ruby
+  - Gemfile
+  - Gemfile.lock
+  # Node.js
+  - package.json
+  - package-lock.json
+  - node_modules
+  - coverage
+  - tsconfig.json
+  - tslint.json
+
+url: https://www.ndxbn.tokyo
 markdown: kramdown
 kramdown:
   input: GFM
 
-## Template
-highlighter: rouge
+# Plugins
+theme:
+
+plugins:
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-avatar
+  - jemoji
+  - jekyll-mentions
+
+# Basic
+title: ndxbn tokyo
+description: >
+  ndxbn tokyo web site.
+
+# jekyll-github-metadata
+repository: ndxbn-tokyo/ndxbn-tokyo.github.io
